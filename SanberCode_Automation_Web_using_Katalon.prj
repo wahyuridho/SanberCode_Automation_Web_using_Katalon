@@ -6,11 +6,12 @@
    <UUID>3606f581-a8ab-4706-b080-20817b8fc3d2</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.5.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Bootcamp Sanbercode\Tugas 4 Katalon\SanberCode_Automation_Web_using_Katalon\SanberCode_Automation_Web_using_Katalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
