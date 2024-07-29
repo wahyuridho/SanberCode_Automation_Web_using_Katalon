@@ -39,4 +39,9 @@
       <initValue>'Epic sadface: Sorry, this user has been locked out.'</initValue>
       <name>alertLockUser</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.saucedemo.com/cart.html'</initValue>
+      <name>cartUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cekout" time="23.176" tests="2" failures="0" errors="0">
+   <testsuite name="Cekout" tests="2" failures="0" errors="0" time="23.176" skipped="0" timestamp="29-07-2024T16:25:56" hostname="saput - DESKTOP-0ML9LJ8" id="Test Suites/Cekout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Bootcamp Sanbercode\\Tugas 4 Katalon\\SanberCode_Automation_Web_using_Katalon\\Reports\\20240729_162551\\Cekout\\20240729_162551"/>
+         <property name="logFiles" value="D:\\Bootcamp Sanbercode\\Tugas 4 Katalon\\SanberCode_Automation_Web_using_Katalon\\Reports\\20240729_162551\\Cekout\\20240729_162551\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saput - DESKTOP-0ML9LJ8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.103.233"/>
+         <property name="sessionId" value="3efc7577eed1d86a7b4bade63942ecaf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC02/TC02001" time="11.726" classname="Test Cases/TC02/TC02001" status="PASSED">
+         <system-out><![CDATA[29-07-2024T16:25:56 - [TEST_CASE][PASSED] - Test Cases/TC02/TC02001: Test Cases/TC02/TC02001
+
+29-07-2024T16:25:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T16:25:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T16:25:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T16:25:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T16:25:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T16:26:00 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T16:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/Login_InputUsername"), validUsername): Text 'standard_user' is set on object 'Object Repository/Page_Login/Login_InputUsername'
+
+29-07-2024T16:26:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Login/Login_InputUsername'
+
+29-07-2024T16:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/Login_InputPassword"), validPassword): Text 'secret_sauce' is set on object 'Object Repository/Page_Login/Login_InputPassword'
+
+29-07-2024T16:26:04 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Login/Login_InputPassword'
+
+29-07-2024T16:26:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/Login_ButtonLogin")): Object: 'Object Repository/Page_Login/Login_ButtonLogin' is clicked on
+
+29-07-2024T16:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Login_ButtonLogin' is clicked on
+
+29-07-2024T16:26:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2024T16:26:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2024T16:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Product/addtoCart_Sauce Labs Backpack")): Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Backpack' is clicked on
+
+29-07-2024T16:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Backpack' is clicked on
+
+29-07-2024T16:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Product/addtoCart_Sauce Labs Bike Light")): Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Bike Light' is clicked on
+
+29-07-2024T16:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Bike Light' is clicked on
+
+29-07-2024T16:26:07 - [TEST_STEP][PASSED] - removeElements = findWebElements(findTestObject("Object Repository/Page_Product/removeElement"), 30): Found web elements by test object Object Repository/Page_Product/removeElement
+
+29-07-2024T16:26:07 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_Product/removeElement
+
+29-07-2024T16:26:07 - [TEST_STEP][PASSED] - countRemoveElement = removeElements.size(): null
+
+29-07-2024T16:26:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Product/cardBadge"), countRemoveElement.toString()): Actual text and expected text of test object 'Object Repository/Page_Product/cardBadge' are matched.
+
+29-07-2024T16:26:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Product/cardBadge' are matched.
+
+29-07-2024T16:26:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-07-2024T16:26:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02/TC02003" time="11.15" classname="Test Cases/TC02/TC02003" status="PASSED">
+         <system-out><![CDATA[29-07-2024T16:26:08 - [TEST_CASE][PASSED] - Test Cases/TC02/TC02003: Test Cases/TC02/TC02003
+
+29-07-2024T16:26:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T16:26:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T16:26:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T16:26:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T16:26:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T16:26:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T16:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/Login_InputUsername"), validUsername): Text 'standard_user' is set on object 'Object Repository/Page_Login/Login_InputUsername'
+
+29-07-2024T16:26:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Login/Login_InputUsername'
+
+29-07-2024T16:26:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/Login_InputPassword"), validPassword): Text 'secret_sauce' is set on object 'Object Repository/Page_Login/Login_InputPassword'
+
+29-07-2024T16:26:14 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Login/Login_InputPassword'
+
+29-07-2024T16:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/Login_ButtonLogin")): Object: 'Object Repository/Page_Login/Login_ButtonLogin' is clicked on
+
+29-07-2024T16:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Login_ButtonLogin' is clicked on
+
+29-07-2024T16:26:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2024T16:26:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2024T16:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Product/addtoCart_Sauce Labs Backpack")): Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Backpack' is clicked on
+
+29-07-2024T16:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Backpack' is clicked on
+
+29-07-2024T16:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Product/addtoCart_Sauce Labs Bike Light")): Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Bike Light' is clicked on
+
+29-07-2024T16:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/addtoCart_Sauce Labs Bike Light' is clicked on
+
+29-07-2024T16:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Product/cartIcon")): Object: 'Object Repository/Page_Product/cartIcon' is clicked on
+
+29-07-2024T16:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product/cartIcon' is clicked on
+
+29-07-2024T16:26:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Cart/product_Sauce Labs Backpack"), 2): Object 'Object Repository/Page_Cart/product_Sauce Labs Backpack' is present
+
+29-07-2024T16:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Cart/product_Sauce Labs Backpack' is present
+
+29-07-2024T16:26:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Cart/product_Sauce Labs Bike Light"), 2): Object 'Object Repository/Page_Cart/product_Sauce Labs Bike Light' is present
+
+29-07-2024T16:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Cart/product_Sauce Labs Bike Light' is present
+
+29-07-2024T16:26:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Cart/product_Sauce Labs Backpack"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Page_Cart/product_Sauce Labs Backpack' are matched.
+
+29-07-2024T16:26:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cart/product_Sauce Labs Backpack' are matched.
+
+29-07-2024T16:26:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Cart/product_Sauce Labs Bike Light"), "Sauce Labs Bike Light"): Actual text and expected text of test object 'Object Repository/Page_Cart/product_Sauce Labs Bike Light' are matched.
+
+29-07-2024T16:26:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cart/product_Sauce Labs Bike Light' are matched.
+
+29-07-2024T16:26:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-07-2024T16:26:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2024T16:25:56 - [TEST_SUITE][PASSED] - Cekout: Test Cases/TC02/TC02003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

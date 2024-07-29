@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cekout,Chrome 126.0.0.0,,,29-07-2024 16:25:56,29-07-2024 16:26:19,23.176s,PASSED
+,,,,,,,
+Test Cases/TC02/TC02001,Chrome 126.0.0.0,"User click button ""add to chart""",,29-07-2024 16:25:56,29-07-2024 16:26:08,11.726s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 16:25:57,29-07-2024 16:25:59,2.200s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,29-07-2024 16:25:59,29-07-2024 16:26:00,1.041s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputUsername""), validUsername)",Chrome 126.0.0.0,,,29-07-2024 16:26:00,29-07-2024 16:26:03,2.805s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputPassword""), validPassword)",Chrome 126.0.0.0,,,29-07-2024 16:26:03,29-07-2024 16:26:04,1.012s,PASSED
+"click(findTestObject(""Page_Login/Login_ButtonLogin""))",Chrome 126.0.0.0,,,29-07-2024 16:26:04,29-07-2024 16:26:04,0.681s,PASSED
+delay(1),Chrome 126.0.0.0,,,29-07-2024 16:26:04,29-07-2024 16:26:06,1.055s,PASSED
+"click(findTestObject(""Page_Product/addtoCart_Sauce Labs Backpack""))",Chrome 126.0.0.0,,,29-07-2024 16:26:06,29-07-2024 16:26:06,0.533s,PASSED
+"click(findTestObject(""Page_Product/addtoCart_Sauce Labs Bike Light""))",Chrome 126.0.0.0,,,29-07-2024 16:26:06,29-07-2024 16:26:07,0.605s,PASSED
+"removeElements = findWebElements(findTestObject(""Object Repository/Page_Product/removeElement""), 30)",Chrome 126.0.0.0,,,29-07-2024 16:26:07,29-07-2024 16:26:07,0.551s,PASSED
+countRemoveElement = removeElements.size(),Chrome 126.0.0.0,,,29-07-2024 16:26:07,29-07-2024 16:26:07,0.010s,PASSED
+"verifyElementText(findTestObject(""Page_Product/cardBadge""), countRemoveElement.toString())",Chrome 126.0.0.0,,,29-07-2024 16:26:07,29-07-2024 16:26:08,0.455s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,29-07-2024 16:26:08,29-07-2024 16:26:08,0.338s,PASSED
+,,,,,,,
+Test Cases/TC02/TC02003,Chrome 126.0.0.0,"User click button ""add to chart"", and then click icon cart",,29-07-2024 16:26:08,29-07-2024 16:26:19,11.150s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 16:26:08,29-07-2024 16:26:09,1.015s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,29-07-2024 16:26:09,29-07-2024 16:26:10,1.098s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputUsername""), validUsername)",Chrome 126.0.0.0,,,29-07-2024 16:26:10,29-07-2024 16:26:13,2.259s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputPassword""), validPassword)",Chrome 126.0.0.0,,,29-07-2024 16:26:13,29-07-2024 16:26:14,1.107s,PASSED
+"click(findTestObject(""Page_Login/Login_ButtonLogin""))",Chrome 126.0.0.0,,,29-07-2024 16:26:14,29-07-2024 16:26:14,0.729s,PASSED
+delay(1),Chrome 126.0.0.0,,,29-07-2024 16:26:14,29-07-2024 16:26:15,1.025s,PASSED
+"click(findTestObject(""Page_Product/addtoCart_Sauce Labs Backpack""))",Chrome 126.0.0.0,,,29-07-2024 16:26:15,29-07-2024 16:26:16,0.501s,PASSED
+"click(findTestObject(""Page_Product/addtoCart_Sauce Labs Bike Light""))",Chrome 126.0.0.0,,,29-07-2024 16:26:16,29-07-2024 16:26:17,0.626s,PASSED
+"click(findTestObject(""Page_Product/cartIcon""))",Chrome 126.0.0.0,,,29-07-2024 16:26:17,29-07-2024 16:26:17,0.644s,PASSED
+"verifyElementPresent(findTestObject(""Page_Cart/product_Sauce Labs Backpack""), 2)",Chrome 126.0.0.0,,,29-07-2024 16:26:17,29-07-2024 16:26:18,0.526s,PASSED
+"verifyElementPresent(findTestObject(""Page_Cart/product_Sauce Labs Bike Light""), 2)",Chrome 126.0.0.0,,,29-07-2024 16:26:18,29-07-2024 16:26:18,0.386s,PASSED
+"verifyElementText(findTestObject(""Page_Cart/product_Sauce Labs Backpack""), ""Sauce Labs Backpack"")",Chrome 126.0.0.0,,,29-07-2024 16:26:18,29-07-2024 16:26:19,0.396s,PASSED
+"verifyElementText(findTestObject(""Page_Cart/product_Sauce Labs Bike Light""), ""Sauce Labs Bike Light"")",Chrome 126.0.0.0,,,29-07-2024 16:26:19,29-07-2024 16:26:19,0.371s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,29-07-2024 16:26:19,29-07-2024 16:26:19,0.276s,PASSED

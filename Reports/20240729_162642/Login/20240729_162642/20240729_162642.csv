@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,29-07-2024 16:26:47,29-07-2024 16:26:55,7.899s,PASSED
+,,,,,,,
+Test Cases/TC01/TC01001,Chrome 126.0.0.0,User login using valid Credential,,29-07-2024 16:26:48,29-07-2024 16:26:55,7.548s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 16:26:48,29-07-2024 16:26:51,2.231s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,29-07-2024 16:26:51,29-07-2024 16:26:52,0.928s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputUsername""), validUsername)",Chrome 126.0.0.0,,,29-07-2024 16:26:52,29-07-2024 16:26:54,2.246s,PASSED
+"setText(findTestObject(""Page_Login/Login_InputPassword""), validPassword)",Chrome 126.0.0.0,,,29-07-2024 16:26:54,29-07-2024 16:26:55,0.774s,PASSED
+"click(findTestObject(""Page_Login/Login_ButtonLogin""))",Chrome 126.0.0.0,,,29-07-2024 16:26:55,29-07-2024 16:26:55,0.441s,PASSED
+current_url = getUrl(),Chrome 126.0.0.0,,,29-07-2024 16:26:55,29-07-2024 16:26:55,0.028s,PASSED
+if (current_url == productPageUrl),Chrome 126.0.0.0,,,29-07-2024 16:26:55,29-07-2024 16:26:55,0.041s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,29-07-2024 16:26:55,29-07-2024 16:26:55,0.226s,PASSED
