@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User click button &quot;add to chart&quot;, and then click icon cart</description>
+   <name>TC02003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70228e01-b24c-4645-b6f1-a3bffcbea111</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c5f62b1-0cea-49e8-8e16-251fd9f62308</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c5f62b1-0cea-49e8-8e16-251fd9f62308</id>
+      <masked>false</masked>
+      <name>out</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User click icon cart</description>
+   <name>TC02002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ceb1c717-c671-494c-a778-a0f4dd8c564c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a1c5b9f-2005-49e0-b448-337206875571</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a1c5b9f-2005-49e0-b448-337206875571</id>
+      <masked>false</masked>
+      <name>currentUrl</name>
+   </variable>
+</TestCaseEntity>

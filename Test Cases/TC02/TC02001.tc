@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User click button &quot;add to chart&quot;</description>
+   <name>TC02001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e0afdf4-76dd-4321-99f9-b98a430592b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1260f25e-82ef-4d40-b38f-1eb4aea61ad9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>1260f25e-82ef-4d40-b38f-1eb4aea61ad9</id>
+      <masked>false</masked>
+      <name>countRemoveElement</name>
+   </variable>
+</TestCaseEntity>
