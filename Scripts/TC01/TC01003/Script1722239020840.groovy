@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Page_Login/Login_InputUsername'), 'standard_user')
+WebUI.setText(findTestObject('Page_Login/Login_InputUsername'), GlobalVariable.lockedUsername)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/Login_InputPassword'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Page_Login/Login_InputPassword'), GlobalVariable.validPassword)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/Login_ButtonLogin'))
+WebUI.click(findTestObject('Page_Login/Login_ButtonLogin'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Page_Login/Login_Alert_notMatch'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Page_Login/Login_Alert_notMatch'), GlobalVariable.alertLockUser)
 
 WebUI.closeBrowser()
 

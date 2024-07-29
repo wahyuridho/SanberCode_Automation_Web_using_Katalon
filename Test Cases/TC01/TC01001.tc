@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login using valid Credential</description>
+   <name>TC01001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>507bb3e4-3243-4675-9d66-b54f2807f05a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fe9e672-7f21-43a8-baef-26df3cc7cffd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fe9e672-7f21-43a8-baef-26df3cc7cffd</id>
+      <masked>false</masked>
+      <name>current_Url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login using Locked Credential</description>
+   <name>TC01003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bbc0a75a-5708-4075-af20-7da943b37920</testCaseGuid>
+</TestCaseEntity>
